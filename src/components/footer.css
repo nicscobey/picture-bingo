@@ -1,0 +1,11 @@
+@import "../App.css";
+
+.footer {
+  color: var(--primary-text);
+  position: absolute;
+  bottom: 0;
+  min-width: 100vw;
+  background-color: var(--primary);
+  margin: 0px;
+  padding: 10px;
+}

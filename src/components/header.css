@@ -1,0 +1,19 @@
+.header {
+  color: var(--primary-text);
+  background-color: var(--primary);
+  margin: 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a,
+a:visited {
+  color: var(--primary-text);
+  text-decoration: none;
+}
+
+.nav-link {
+  margin-left: 20px;
+}
