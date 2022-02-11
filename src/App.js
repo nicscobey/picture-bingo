@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Header />
+        {/* <Header /> */}
         <Switch>
           <Route exact path="/">
             <Home />
@@ -23,7 +23,7 @@ function App() {
             <Projects />
           </Route>
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
       </header>
     </div>
   );
