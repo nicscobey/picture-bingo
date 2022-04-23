@@ -5,12 +5,14 @@ import Footer from './components/footer'
 import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
-
+import Skills from './pages/Skills'
+import Resume from './pages/Resume'
+import Contact from './pages/Contact'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Header className="App-header" />
         {/* <Header /> */}
         <Switch>
           <Route exact path="/">
@@ -22,9 +24,18 @@ function App() {
           <Route exact path="/projects">
             <Projects />
           </Route>
+          <Route exact path="/skills">
+            <Skills />
+          </Route>
+          <Route exact path="/resume">
+            <Resume />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
+          </Route>
         </Switch>
         {/* <Footer /> */}
-      </header>
+      {/* </Header> */}
     </div>
   );
 }

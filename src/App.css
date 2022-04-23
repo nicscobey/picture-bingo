@@ -16,3 +16,8 @@
   --secondary-text: white;
   --tertiary-text: black;
 }
+
+.page {
+  min-height: calc(100vh - 80px);
+
+}
