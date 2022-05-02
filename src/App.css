@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   min-height: 100vh;
+  background-color: #001F30;
 }
 
 .App-logo {
@@ -15,9 +16,29 @@
   --primary-text: white;
   --secondary-text: white;
   --tertiary-text: black;
+  --black: #000000;
+}
+
+/* .page {
+  min-height: calc(100vh - 80px);
+  background-color: var(--black);
+} */
+
+.pages {
+  padding: 20px;
 }
 
 .page {
-  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+}
 
+h1 {
+  padding-top: 55px;
+  color: #F6D43C;
+}
+
+.blue-text {
+  display:inline;
+  color: #0dd0d0;
 }

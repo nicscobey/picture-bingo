@@ -1,0 +1,11 @@
+iframe {
+    width: 800px;
+    height: 600px;
+    margin-bottom: 40px;
+}
+
+.resume-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

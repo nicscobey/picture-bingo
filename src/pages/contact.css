@@ -1,0 +1,26 @@
+.contact-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-link,
+.contact-link:visited {
+    width: 75px;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.contact-link p {
+    margin-top: 0;
+}
+
+.contact-link.brightness img {
+    max-width: 100%;
+    filter: brightness(100);
+}
+
+.contact-link.invert img {
+    max-width: 100%;
+    filter: invert(100%);
+}

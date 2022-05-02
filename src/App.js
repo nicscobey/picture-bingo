@@ -14,26 +14,14 @@ function App() {
     <div className="App">
       <Header className="App-header" />
         {/* <Header /> */}
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/about">
-            <About />
-          </Route>
-          <Route exact path="/projects">
-            <Projects />
-          </Route>
-          <Route exact path="/skills">
-            <Skills />
-          </Route>
-          <Route exact path="/resume">
-            <Resume />
-          </Route>
-          <Route exact path="/contact">
-            <Contact />
-          </Route>
-        </Switch>
+        <div className="pages">
+          <Home />
+          <Skills/>
+          <About />
+          <Projects />
+          <Resume />
+          <Contact />
+        </div>
         {/* <Footer /> */}
       {/* </Header> */}
     </div>

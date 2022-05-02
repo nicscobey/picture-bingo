@@ -1,0 +1,24 @@
+button {
+    border: none;
+    font-size: 20px;
+}
+.primary {
+    background: linear-gradient(90deg, #006868 0%, #009C9C 0.01%, #0185AF 100%);
+    color: white;
+    padding: 20px 60px; 
+}
+
+.primary:hover {
+    cursor: pointer;
+}
+
+.secondary {
+    background-color: transparent;
+    border: 4px solid white;
+    padding: 16px 56px; 
+    color: white;
+}
+
+.secondary:hover {
+    cursor: pointer;
+}
