@@ -63,3 +63,23 @@
   position: absolute;
   transform: translate(-20px, -15px);
 }
+
+@media only screen and (max-width: 900px) {
+  .home-page {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-left {
+    padding-right: 0;
+    align-items: center;
+  }
+
+  #home-img, .blue-box, .yellow-box  {
+    height: 250px;
+  }
+
+  .blue-box, .yellow-box {
+    width: 178px;
+  }
+}

@@ -18,7 +18,7 @@ const Home = () => {
         </h2>
         <div className="display-flex">
         <a href="https://drive.google.com/file/d/15yYCde2zrdW2WEYnCpzoU4PUu2m8_cNv/view?usp=sharing" target="_blank">
-            <PrimaryButton text={"View Resume"} />
+            <PrimaryButton text={"View Resume"}  space={0} />
           </a>
           {/* <SecondaryButton text={"hi"} /> */}
         </div>
