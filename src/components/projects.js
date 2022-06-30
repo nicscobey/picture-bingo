@@ -18,6 +18,15 @@ const projects = [
         YouTube: ""
     },
     {
+        name: "GA Alumni Portal (WIP)",
+        description: "Full-stack application built with React. Currently has a functioning forum and alumni search tool.",
+        skills: ["React", "JavaScript", "Ruby on Rails"],
+        image: require('../imgs/alumni_portal.png'),
+        url: "https://ga-alumni-portal.netlify.app/",
+        GitHub: "https://github.com/nicscobey/alumni-portal",
+        YouTube: ""
+    },
+    {
         name: "Job Application Tracker",
         description: "A full-stack application with session-based user authentication full CRUD functionality, allowing users to track job applications and networking contacts.",
         skills: ["JavaScript", "Express", "MongoDB"],
